@@ -121,7 +121,7 @@ def install_python_packages():
     
     packages = [
         "requests", "bs4", "rich", "flask", 
-        "matplotlib", "pandas", "numpy", "tqdm"
+        "matplotlib", "pandas", "numpy", "tqdm", "pyfiglet"
     ]
     
     pip_cmd = "pip install --break-system-packages"
