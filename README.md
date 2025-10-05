@@ -17,7 +17,7 @@ The script performs the following tasks:
 - Sets **zsh** as the default shell.
 - Modifies `~/.zshrc` to include useful aliases.
 ## Requirements
-- Linux system (Debian/Ubuntu recommended).
+- WSL (Install wsl)[https://learn.microsoft.com/en-us/windows/wsl/install]
 - Python 3.x installed.
 - Sudo privileges for system-wide installations.
 - Internet connection.
