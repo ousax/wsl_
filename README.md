@@ -9,7 +9,7 @@ The script performs the following tasks:
 - Installs a curated set of tools from **tomnomnom**:
   - assetfinder, waybackurls, httprobe, gf, gron, fff, unfurl, anon, meg, comb, qsreplace, bf, html-tool
 - Installs **system tools**:  
-  - nmap, jq, dirb, ffuf
+  - nmap, jq, dirbuster, ffuf
 - Installs **Kali Win-KeX**.
 - Installs **SecLists**.
 - Installs **Python packages**:  
