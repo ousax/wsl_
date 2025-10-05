@@ -99,7 +99,7 @@ def install_tomnomnom_tools():
 def install_system_tools():
     print("Installing system tools...")
     
-    tools = ["nmap", "jq", "dirbuster", "ffuf", "seclists"]
+    tools = ["nmap", "jq", "dirbuster", "ffuf", "seclists", "whatweb", "sqlmap", "amass", "assetfinder"]
     install_cmd = "sudo apt update && sudo apt install -y"
     
     for tool in tools:
