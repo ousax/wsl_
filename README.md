@@ -25,5 +25,5 @@ The script performs the following tasks:
 Clone this repository and make the script executable:
 ```bash
 git clone https://github.com/ousax/wsl_.git
-cd security-tools-automation
-chmod +x install_tools.py
+cd wsl_
+chmod +x wsl_.py
