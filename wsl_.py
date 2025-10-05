@@ -99,7 +99,7 @@ def install_tomnomnom_tools():
 def install_system_tools():
     print("Installing system tools...")
     
-    tools = ["nmap", "jq", "dirb", "ffuf"]
+    tools = ["nmap", "jq", "dirbuster", "ffuf", "seclists"]
     install_cmd = "sudo apt update && sudo apt install -y"
     
     for tool in tools:
@@ -112,9 +112,9 @@ def install_kex():
     print("Installing Kali Win-KeX...")
     return run_command("sudo apt install -y kali-win-kex", "Installing Kali Win-KeX")
 
-def install_seclists():
-    print("Installing SecLists...")
-    return run_command("sudo apt install -y seclists", "Installing SecLists")
+#def install_seclists():
+ #   print("Installing SecLists...")
+  #  return run_command("sudo apt install -y seclists", "Installing SecLists")
 
 def install_python_packages():
     print("Installing Python packages...")
@@ -201,9 +201,9 @@ def main():
         ("Installing PDTM", install_pdtm),
         ("Installing ProjectDiscovery tools", install_projectdiscovery_tools),
         ("Installing tomnomnom tools", install_tomnomnom_tools),
-        ("Installing system tools", install_system_tools),
+        ("Installing system tools", install_system_tools), # seclists --> sudo apt install seclists , takes time though .
         ("Installing Kali Win-KeX", install_kex),
-        ("Installing SecLists", install_seclists),
+        #("Installing SecLists", install_seclists),
         ("Installing Python packages", install_python_packages),
         ("Setting zsh as default shell", set_default_shell),
         ("Modifying .zshrc aliases", modify_zshrc_aliases),
